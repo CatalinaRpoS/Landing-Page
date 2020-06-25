@@ -1,0 +1,10 @@
+.card-img-top{
+    max-height: 300px;
+}
+
+h3, h5, #aclaracion{
+    color: #F38749;
+}
+#listo{
+    background-color: #F38749;
+}
