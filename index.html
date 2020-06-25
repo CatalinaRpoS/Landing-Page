@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de Lectura | Landing Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles/styles.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <a class="navbar-brand"><img src="Images/icono.png" width="70" height="70" class="d-inline-block align-top" alt="Icono" loading="lazy"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active font-weight-bold" href="#libros-recomendados">Recomendados<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active font-weight-bold" href="#actividades">Actividades</a>
+                <a class="nav-item nav-link active font-weight-bold" href="#inscripciones">Inscripciones</a>
+                <a class="nav-item nav-link active font-weight-bold" href="#poesia">Poesía</a>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Images/lectura.png" class="d-block w-100" alt="Club-de-lectura" >
+              </div>
+              <div class="carousel-item">
+                <img src="Images/lectura-2.jpg" class="d-block w-100" alt="Libros">
+              </div>
+              <div class="carousel-item">
+                <img src="Images/lectura-3.jpg" class="d-block w-100" alt="Personas-leyendo">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </section>
+
+    <br/>
+
+    <section class="container" id="libros-recomendados">
+        <h2 class="text-info">Libros Recomendados para el Mes de Julio</h2>
+        <br/>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <div class="card ">
+              <img src="Images/libro-1.jpg" class="card-img-top" alt="Se-resfriaron-los-sapos">
+              <div class="card-body">
+                <h5 class="card-title">Se Resfriaron los Sapos</h5>
+                <p class="card-text">A partir de la repentina desaparición de su padre en la mina donde trabaja, Otoniel Restrepo tiene que enfrentarse a aspectos de la vida que  hasta ese momento no conocía: el dolor, la incertidumbre y la necesaria madurez que exige una situación que no solo cambiará su vida familiar, sino también su manera de ver el mundo.<br/> <span class="font-italic">Autor: Marcela Velásquez Guiral</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="Images/libro-2.jpg" class="card-img-top" alt="El-secreto-de-las-perlas">
+              <div class="card-body">
+                <h5 class="card-title">El Secreto de las Perlas</h5>
+                <p class="card-text">Un pueblo costero con un mar que no tiene peces y un pescador que tiene la suerte de encontrar una cueva submarina repleta de valiosas perlas. En esta historia que explora la relación del ser humano con la naturaleza, la necesidad de todos se verá enfrentada al egoísmo de uno solo. <br/> <span class="font-italic">Autor: Jordi Sierra I Fabra</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="Images/libro-3.png" class="card-img-top" alt="Maus">
+              <div class="card-body">
+                <h5 class="card-title">Maus</h5>
+                <p class="card-text">A través de un cómic que representa a los judíos como ratones y a los nazis como gatos, Art Spiegelman cuenta la historia de su padre Vladek, un judío polaco que sobrevivió a los campos de exterminio nazis. Una historia que llega hasta los más profundos sentimientos del lector.<br/> <span class="font-italic">Autor: Art Spiegelman</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="Images/libro-4.jpg" class="card-img-top" alt="La-memoria-de-los-seres-perdidos">
+              <div class="card-body">
+                <h5 class="card-title">La Memoria de los Seres Perdidos</h5>
+                <p class="card-text">Hace veinte años, la represión ejercida por la dictadura argentina hizo desaparecer a 30.000 personas. La historia de Estela es la de muchos jóvenes nacidos en aquella época, quienes hoy están buscando su identidad y su pasado, pues ni el olvido ni el silencio pueden ocultar la verdad.<br/> <span class="font-italic">Autor: Jordi Sierra I Fabra</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="Images/libro-5.jpg" class="card-img-top" alt="Colmillo-blanco">
+              <div class="card-body">
+                <h5 class="card-title">Colmillo Blanco</h5>
+                <p class="card-text">La relación entre el ser humano y la naturaleza se ve representada nuevamente en esta historia, contada a través de la vida de un perro salvaje que, desde su nacimiento, tuvo una estrecha relación con distintos tipos de personas. Una obra llena de riqueza literaria, que merece ser leída más de una vez.<br/> <span class="font-italic">Autor: Jack London</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="Images/libro-6.jpg" class="card-img-top" alt="Relato-de-un-naufrago">
+              <div class="card-body">
+                <h5 class="card-title">Relato de un Náufrago</h5>
+                <p class="card-text">Luis Alejandro Velasco fue el único sobreviviente del naufragio de un destructor de la Marina de Guerra de Colombia, ocurrido en en el mar Caribe. Esta historia es la reconstrucción periodística de dicho suceso, tal y como el joven reportero Gabriel García Márquez la escuchó de labios del náufrago.<br/> <span class="font-italic">Autor: Gabriel García Márquez</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="container" id="actividades">
+      <h2 class="text-info">Actividades para el Mes de Julio</h2>
+      <br/>
+      <div class="table-responsive">
+      <table class="table table-striped">
+        <thead class="bg-info">
+          <tr>
+            <th scope="col">Actividad</th>
+            <th scope="col">Lugar</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Hora</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lectura en voz alta</td>
+            <td>Sala común</td>
+            <td>04/07/20</td>
+            <td>02:00 pm</td>
+          </tr>
+          <tr>
+            <td>Taller de escritura</td>
+            <td>Sala de creatividad</td>
+            <td>11/07/20</td>
+            <td>11:00 am</td>
+          </tr>
+          <tr>
+            <td>Hora del cuento</td>
+            <td>Sala infantil</td>
+            <td>18/07/20</td>
+            <td>10:00 am</td>
+          </tr>
+          <tr>
+            <td>Charla con escritor invitado <br/>(Inscripción previa)</td>
+            <td>Sala de conferencias</td>
+            <td>25/07/20</td>
+            <td>05:00 pm</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </section>
+
+    <section class="container" id="inscripciones">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h3>Inscripciones para la Charla</h3>
+                <p id="aclaracion">Solo para residentes en Medellín</p>
+              </button>
+            </h2>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputName4">Nombre</label>
+                    <input type="text" class="form-control" id="inputName4">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Ej: nombre@mail.com">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputAddress">Dirección</label>
+                  <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPhone">Teléfono de Contacto</label>
+                  <input type="number" class="form-control" id="inputPhone">
+                </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputNeighborhood">Barrio</label>
+                    <input type="text" class="form-control" id="inputNeighborhood">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputState">Comuna o Corregimiento</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Escoge...</option>
+                      <option>1- Popular</option>
+                      <option>2- Santa Cruz</option>
+                      <option>3- Manrique</option>
+                      <option>4- Aranjuez</option>
+                      <option>5- Castilla</option>
+                      <option>6- Doce de Octubre</option>
+                      <option>7- Robledo</option>
+                      <option>8- Villa Hermosa</option>
+                      <option>9- Buenos Aires</option>
+                      <option>10- La Candelaria</option>
+                      <option>11- Laureles - Estadio</option>
+                      <option>12- La América</option>
+                      <option>13- San Javier</option>
+                      <option>14- El Poblado</option>
+                      <option>15- Guayabal</option>
+                      <option>16- Belén</option>
+                      <option>San Sebastán de Palmitas</option>
+                      <option>San Cristóbal</option>
+                      <option>Altavista</option>
+                      <option>San Antonio de Prado</option>
+                      <option>Santa Elena</option>
+                    </select>
+                  </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Notificarme via email
+                    </label>
+                  </div>
+                </div>
+                </div>
+                <button type="submit" class="btn" id="listo">¡Listo!</button>
+              </form>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <br/>
+    <hr/>
+    <br/>
+
+    <section class="container" id="poesia">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <h3 class="text-info text-center">Poesía para el Mes de Julio</h2>
+            <div class="card border border-white" style="max-width: 700px;">
+              <div class="card-body">
+                <p class="card-text">La esperanza siempre debe permanecer, aun en los peores escenarios. Este poema anónimo, atribuido a Mario Benedetti, es una invitación a seguir adelante a pesar de todos los obstáculos que puedan presentarse en la vida, pues mientras haya tiempo habrá una oportunidad de levantarse y seguir luchando.</p>
+              </div>
+            </div>
+
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hbY_yFgRZ5w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    </main>
+    <br/>
+    <footer class="footer-style bg-info">
+      <div class="container text-center">
+          <div class="row">
+              <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                  <br/>
+                  <p class="font-weight-bold">Catalina Restrepo Salgado - 2020</p>
+              </div>
+              <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <br/>
+                <img src="Images/icono-2.png" width="70" height="70" class="d-inline-block align-top" alt="Icono-2" loading="lazy">
+            </div>
+              <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <br/>
+                <p class="font-weight-bold" >Club de Lectura</p>
+                <p class="font-weight-bold" >- Porque Leer nos Hace Bien -</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
